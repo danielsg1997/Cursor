@@ -1,3 +1,22 @@
+"""
+Ejercicio de Análisis de Datos Estadísticos
+
+Este módulo realiza un análisis estadístico básico de datos numéricos almacenados
+en un archivo CSV. Calcula medidas estadísticas descriptivas (media, mediana,
+desviación estándar) para dos columnas de datos y genera una visualización
+mediante un gráfico de dispersión (scatter plot).
+
+Funcionalidades:
+    - Lectura de datos desde un archivo CSV
+    - Cálculo de estadísticas descriptivas (media, mediana, desviación estándar)
+    - Visualización de datos mediante gráfico de dispersión
+
+Requisitos:
+    - pandas: Para manipulación de datos
+    - matplotlib: Para visualización de gráficos
+    - Archivo datos_numericos.csv con columnas 'columna_1' y 'columna_2'
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 #quiero leer el archivo datos_numericos.csv

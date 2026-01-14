@@ -1,3 +1,21 @@
+"""
+Ejercicio de Verificación de Números Primos
+
+Este módulo implementa un algoritmo eficiente para determinar si un número
+es primo. Un número primo es aquel que solo es divisible por 1 y por sí mismo.
+
+Funcionalidades:
+    - Verificación de números primos con algoritmo optimizado
+    - Manejo de casos especiales (números menores a 2, números pares)
+    - Optimización mediante verificación hasta la raíz cuadrada del número
+    - Interfaz interactiva para solicitar números al usuario
+    - Manejo de errores para entradas inválidas
+
+Algoritmo:
+    Utiliza optimizaciones como verificar solo divisores impares y limitar
+    la búsqueda hasta la raíz cuadrada del número para mejorar el rendimiento.
+"""
+
 import math
 
 
