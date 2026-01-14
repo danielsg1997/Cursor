@@ -59,4 +59,4 @@ while True:
         print(f"el resultado de la operacion es: {resultado}")
     except ZeroDivisionError:
         print("Error: No se puede dividir entre cero. Por favor, intenta con otro número.")
-    print()  # Línea en blanco para mejor legibilidad
+    print()
